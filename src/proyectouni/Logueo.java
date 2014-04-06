@@ -41,6 +41,11 @@ public class Logueo extends java.awt.Dialog {
             }
         });
 
+        panel1.setBackground(new java.awt.Color(102, 102, 255));
+        panel1.setForeground(new java.awt.Color(102, 102, 255));
+        panel1.setColorPrimario(new java.awt.Color(153, 153, 0));
+        panel1.setColorSecundario(new java.awt.Color(204, 153, 0));
+
         labelMetric1.setText("Usuario");
 
         labelMetric2.setText("Contraseña");
