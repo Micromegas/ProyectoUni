@@ -19,7 +19,7 @@ public class Conexion {
     private String password = "dbprogramacion";
     private String url = "jdbc:mysql//localhost/"+bd;
     private Connection conn = null;
-}
+
 public Conexion(){
       try{
          //obtenemos el driver de para mysql
@@ -36,7 +36,7 @@ public Conexion(){
       }
     }
 
-
+}
 
 
 
